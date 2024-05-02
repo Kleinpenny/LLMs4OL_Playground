@@ -1,0 +1,64 @@
+Running on dataset: geonames , model: bloom_3b, template: -0-!
+Namespace(kb_name='geonames', model='bloom_3b', template='0', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-0-2023-04-23 17:43:40.json
+F1 Score: 0.35856959329848825
+storing results in: results/geonames/bloom_3b/report-bloom_3b-0-2023-04-23 17:43:40.json
+Inference for  bloom_3b on template: -0-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bloom_3b, template: -1-!
+Namespace(kb_name='geonames', model='bloom_3b', template='1', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-1-2023-04-23 17:48:43.json
+F1 Score: 0.3912082779263242
+storing results in: results/geonames/bloom_3b/report-bloom_3b-1-2023-04-23 17:48:43.json
+Inference for  bloom_3b on template: -1-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bloom_3b, template: -2-!
+Namespace(kb_name='geonames', model='bloom_3b', template='2', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-2-2023-04-23 17:51:54.json
+F1 Score: 0.5392252516913444
+storing results in: results/geonames/bloom_3b/report-bloom_3b-2-2023-04-23 17:51:54.json
+Inference for  bloom_3b on template: -2-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bloom_3b, template: -3-!
+Namespace(kb_name='geonames', model='bloom_3b', template='3', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-3-2023-04-23 17:55:43.json
+F1 Score: 0.3022760844359027
+storing results in: results/geonames/bloom_3b/report-bloom_3b-3-2023-04-23 17:55:43.json
+Inference for  bloom_3b on template: -3-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bloom_3b, template: -4-!
+Namespace(kb_name='geonames', model='bloom_3b', template='4', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-4-2023-04-23 17:58:55.json
+F1 Score: 0.3562784959912859
+storing results in: results/geonames/bloom_3b/report-bloom_3b-4-2023-04-23 17:58:55.json
+Inference for  bloom_3b on template: -4-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bloom_3b, template: -5-!
+Namespace(kb_name='geonames', model='bloom_3b', template='5', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-5-2023-04-23 18:02:06.json
+F1 Score: 0.3360654917718459
+storing results in: results/geonames/bloom_3b/report-bloom_3b-5-2023-04-23 18:02:06.json
+Inference for  bloom_3b on template: -5-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bloom_3b, template: -6-!
+Namespace(kb_name='geonames', model='bloom_3b', template='6', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-6-2023-04-23 18:05:21.json
+F1 Score: 0.48263765315979457
+storing results in: results/geonames/bloom_3b/report-bloom_3b-6-2023-04-23 18:05:21.json
+Inference for  bloom_3b on template: -6-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bloom_3b, template: -7-!
+Namespace(kb_name='geonames', model='bloom_3b', template='7', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-7-2023-04-23 18:08:36.json
+F1 Score: 0.37731361426644516
+storing results in: results/geonames/bloom_3b/report-bloom_3b-7-2023-04-23 18:08:36.json
+Inference for  bloom_3b on template: -7-  is done
+-----------------------------------------------------------

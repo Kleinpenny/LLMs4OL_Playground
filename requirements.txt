@@ -1,0 +1,22 @@
+pandas
+tqdm
+argparse
+pathlib
+scikit-learn
+numpy
+torch
+transformers==4.33.2
+sentencepiece
+nltk
+datasets
+openai
+openprompt
+pykeen
+matplotlib
+plotly
+accelerate
+python-dotenv
+peft
+#pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# Make sure you have git-lfs installed (https://git-lfs.com)
+#git lfs install
